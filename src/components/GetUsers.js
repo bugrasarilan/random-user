@@ -9,22 +9,19 @@ const GetUsers = ({ onSubmit, users }) => {
         </p>
       </div>
       <div className="card">
-        <p>{users.email}</p>
+        <p>Email: {users.email}</p>
       </div>
       <div className="card">
-        <p>{users.phone}</p>
+        <p>Phone: {users.phone}</p>
       </div>
       <div className="card">
-        <p>
-          {users.location && users.location.city} /
-          {users.location && users.location.country}
-        </p>
+        <p>Location: {users.location && users.location.city} / {users.location && users.location.country}</p>
       </div>
       
     <div className="card"> <p> Age: {users.dob&&users.dob.age}
       </p></div>
     <div className="card">
-      <p> Register Date: {new Date(users.dob&&users.dob.date).toLocaleDateString("tr-TR")}</p>
+      <p> Birthday : {new Date(users.dob&&users.dob.date).toLocaleDateString("tr-TR")}</p>
     </div>
  
       <div>
