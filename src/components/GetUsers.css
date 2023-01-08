@@ -6,19 +6,15 @@
     color: white;
     padding: 1rem;
     border-radius: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
-  
   p {
     display: flex;
     justify-content: center;
   }
   .card {
-    /* margin: 1rem 2rem; */
     display: flex;
     align-items: center;
   }
-  
   img {
     display: flex;
     align-items: center;
@@ -38,19 +34,15 @@
     margin-left: 1.7rem;
     border-radius: 15px;
     cursor: pointer;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
-  
   button:active {
-    transform: scale(0.95);
+    transform: scale(0.9);
   }
   .name img {
     border-radius: 50%;
     display: flex;
     margin-left:20px;
     border: 1px solid;
-
-
   }
   
  
