@@ -1,48 +1,51 @@
+body {
+  background-color: rgb(220, 232, 243);
+  font-family: sans-serif;
+}
 .card-container {
-    width: 400px;
-    height: 470px;
-    margin: 2rem auto;
-    background: linear-gradient(360deg, #3085ad 0%, #275fcf 100%);
-    color: white;
-    padding: 1rem;
-    border-radius: 15px;
-  }
-  p {
-    display: flex;
-    justify-content: center;
-  }
-  .card {
-    display: flex;
-    align-items: center;
-  }
-  img {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .card p {
-    margin-left: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  button {
-    border: none;
-    background: linear-gradient(360deg, #5497b6 0%, #5bade3 60%);
-    color: rgb(196, 216, 225);
-    padding: 1rem;
-    margin-left: 1.7rem;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-  button:active {
-    transform: scale(0.9);
-  }
-  .name img {
-    border-radius: 50%;
-    display: flex;
-    margin-left:20px;
-    border: 1px solid;
-  }
-  
- 
+  width: 400px;
+  height: 470px;
+  margin: 2rem auto;
+  background: linear-gradient(360deg, #3085ad 0%, #275fcf 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+}
+img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card p {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  background: linear-gradient(360deg, #55bded 0%, #55aee8 40%);
+  color: rgb(226, 246, 255);
+  padding: 1rem;
+  margin-left: 1.7rem;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: small;
+}
+button:active {
+  transform: scale(0.9);
+}
+.name img {
+  border-radius: 50%;
+  display: flex;
+  margin-left: 20px;
+  border: 1px solid;
+}
