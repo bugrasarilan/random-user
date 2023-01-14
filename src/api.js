@@ -5,5 +5,4 @@ const searchUsers = async () => {
   console.log("response",response.data.results[0]);
    return response;
 };
-
 export default searchUsers;
